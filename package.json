@@ -1,0 +1,9 @@
+{
+  "name": "kiran-nisha-wedding-invitation",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Vercel-ready traditional Kerala wedding website and moderated guestbook",
+  "scripts": {"check": "node --check script.js && node --check api/wishes.js && node --check api/photos.js && node --check lib/supabase.js"},
+  "dependencies": {"@supabase/supabase-js": "^2.57.0"},
+  "engines": {"node": ">=20"}
+}

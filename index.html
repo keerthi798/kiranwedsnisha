@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#700d1b">
+  <meta name="description" content="Join Kirankumar and Nisha Mohan as they celebrate their wedding on Thursday, 11 February 2027. Send your blessings and share the joy.">
+  <meta property="og:title" content="Kirankumar & Nisha Mohan · Wedding Invitation">
+  <meta property="og:description" content="Together with our families, we invite you to celebrate our special day · 11 February 2027">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <title>Kirankumar ♥ Nisha Mohan | 11 February 2027</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="invitation-closed">
+  <div id="flowerRain" class="flower-rain" aria-hidden="true"></div>
+
+  <div id="invitationOverlay" class="invitation-overlay" role="dialog" aria-label="Wedding invitation envelope" aria-modal="true">
+    <div class="invitation-glow"></div>
+    <div class="introduction-top">AN INVITATION FROM OUR HEARTS <span>✦</span> 11 · 02 · 2027</div>
+    <div class="envelope-scene">
+      <div class="intro-bouquet intro-bouquet-left" aria-hidden="true">🌹 <span>🌼</span> 🌻</div>
+      <div class="intro-bouquet intro-bouquet-right" aria-hidden="true">🌻 <span>🌼</span> 🌹</div>
+      <div class="envelope-wrap" id="envelopeWrap">
+        <div class="envelope-paper">
+          <span class="small-caps">WEDDING INVITATION</span>
+          <span class="paper-bloom">❧</span>
+          <strong>Kirankumar <em>&</em><br>Nisha Mohan</strong>
+          <span class="date-stamp">THURSDAY • 11 FEBRUARY 2027</span>
+        </div>
+        <div class="envelope-back"></div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-left"></div>
+        <div class="envelope-right"></div>
+        <div class="envelope-bottom"></div>
+        <button id="openInvitation" class="wax-seal" type="button" aria-label="Open wedding invitation"><span>KN<br>♥</span></button>
+      </div>
+    </div>
+    <p class="tap-hint">A little love letter is waiting for you</p>
+    <button class="open-link" id="openInvitationText" type="button">Tap to open our invitation <span>↗</span></button>
+    <p class="intro-bottom">WITH LOVE, FROM BOTH OUR FAMILIES</p>
+  </div>
+
+  <div id="website" class="website" aria-hidden="true">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to beginning">K <span>♥</span> N</a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home">Our day</a><a href="#story">A little note</a><a href="#events">The celebration</a><a href="#gallery">Memories</a><a href="#wishes">Blessings</a>
+      </nav>
+      <a class="nav-action" href="#wishes">Leave a blessing <span>♥</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="flower-corner left-corner" aria-hidden="true">🌹 <i>❀</i> 🌼</div>
+        <div class="flower-corner right-corner" aria-hidden="true">🌻 <i>❀</i> 🌹</div>
+        <div class="hero-inner">
+          <div class="hero-art reveal">
+            <div class="illustration-frame"><img src="assets/kerala-wedding.webp" alt="Illustration of a couple in traditional Kerala wedding attire facing a beautiful temple" fetchpriority="high"></div>
+            <span class="art-caption">A NEW CHAPTER • A BEAUTIFUL BEGINNING</span>
+          </div>
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span>✦</span> TOGETHER WITH OUR FAMILIES <span>✦</span></div>
+            <p class="hero-small">We joyfully invite you to the wedding of</p>
+            <h1>Kirankumar <span class="ampersand">&</span> <span>Nisha Mohan</span></h1>
+            <div class="gold-divider"><span>✦</span></div>
+            <p class="hero-note">Two hearts, one beautiful journey.<br>And a thousand reasons to celebrate.</p>
+            <div class="wedding-date"><span class="date-ornament">✽</span><div><small>THURSDAY</small><strong>11 February 2027</strong><small>WITH ALL OUR LOVE</small></div><span class="date-ornament">✽</span></div>
+            <a href="#events" class="btn btn-red">Discover our celebration <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-bottom-mark">❦ &nbsp; A DAY WRITTEN IN THE STARS &nbsp; ❦</div>
+      </section>
+
+      <section class="countdown-section" aria-labelledby="countdown-title">
+        <div class="section-icon">✻</div>
+        <p class="eyebrow red-ink">EVERY MOMENT BRINGS US CLOSER</p>
+        <h2 id="countdown-title">Counting down to <em>forever</em></h2>
+        <p class="countdown-intro" id="countdownIntro">Until we begin our beautiful journey together</p>
+        <div class="countdown" aria-label="Countdown until the wedding">
+          <div class="time-box"><strong id="days">--</strong><span>DAYS</span></div><div class="time-separator">:</div>
+          <div class="time-box"><strong id="hours">--</strong><span>HOURS</span></div><div class="time-separator">:</div>
+          <div class="time-box"><strong id="minutes">--</strong><span>MINUTES</span></div><div class="time-separator">:</div>
+          <div class="time-box"><strong id="seconds">--</strong><span>SECONDS</span></div>
+        </div>
+        <p class="countdown-footnote">11.02.2027 · Kerala, India</p>
+      </section>
+
+      <section class="story-section section-pad" id="story">
+        <div class="story-spark one" aria-hidden="true">✾</div><div class="story-spark two" aria-hidden="true">✾</div>
+        <div class="story-card reveal">
+          <span class="section-icon">❧</span>
+          <p class="eyebrow">A LITTLE NOTE TO YOU</p>
+          <h2>A celebration of <em>love & togetherness</em></h2>
+          <p>With hearts full of happiness, we invite you to share in the joy of our wedding. Your presence, your smiles and your blessings will make this day all the more beautiful.</p>
+          <p>Come, be part of the memories we will cherish forever.</p>
+          <div class="signature">With love, <strong>Kirankumar & Nisha</strong></div>
+        </div>
+      </section>
+
+      <section class="events-section section-pad" id="events">
+        <div class="section-heading reveal"><p class="eyebrow red-ink">COME CELEBRATE WITH US</p><h2>Our special <em>moments</em></h2><p>A little tradition, a lot of love, and the people who make it meaningful.</p></div>
+        <div class="events-grid">
+          <article class="event-card reveal">
+            <div class="event-num">01 / THE SACRED MOMENT</div><div class="event-symbol">🪔</div>
+            <h3>The Wedding Ceremony</h3>
+            <div class="event-info"><span>Thursday, 11 February 2027</span><span id="ceremonyTimeLabel">Ceremony time to be announced</span></div>
+            <p>A sacred beginning surrounded by rituals, love, and the blessings of our families.</p>
+            <div class="venue-details"><span class="pin-icon">⌖</span><div><strong id="templeName">Temple venue</strong><span id="templeAddress">Exact temple name and location coming soon</span></div></div>
+            <a class="btn btn-outline is-disabled" id="templeMap" href="#events" aria-disabled="true" tabindex="-1">Temple map coming soon <span>↗</span></a>
+          </article>
+          <article class="event-card event-card-highlight reveal">
+            <div class="event-num">02 / THE WARMEST WELCOME</div><div class="event-symbol">🏡</div>
+            <h3>Our Home</h3>
+            <div class="event-info"><span>A place filled with family and love</span><span>Kayamkulam, Kerala</span></div>
+            <p>Every celebration begins at home, where our happiest memories live.</p>
+            <div class="venue-details"><span class="pin-icon">⌖</span><div><strong>Kiran Bhavanam</strong><span>Kannampally Bhagam, Kayamkulam, Kerala, India</span></div></div>
+            <a class="btn btn-outline" id="homeMap" href="https://www.google.com/maps/search/?api=1&amp;query=Kiran%20Bhavanam%20Kannampally%20Bhagam%20Kayamkulam%20Kerala%20India" target="_blank" rel="noopener noreferrer">Find our home <span>↗</span></a>
+          </article>
+          <article class="event-card reveal">
+            <div class="event-num">03 / CELEBRATING TOGETHER</div><div class="event-symbol">✺</div>
+            <h3>The Reception</h3>
+            <div class="event-info"><span id="receptionDateLabel">Date to be announced</span><span id="receptionTimeLabel">Time to be announced</span></div>
+            <p>More laughter, happy photographs, warm hugs and memories to last a lifetime.</p>
+            <div class="venue-details"><span class="pin-icon">⌖</span><div><strong id="receptionName">Reception venue</strong><span id="receptionAddress">Venue details coming soon</span></div></div>
+            <a class="btn btn-outline is-disabled" id="receptionMap" href="#events" aria-disabled="true" tabindex="-1">Reception map coming soon <span>↗</span></a>
+          </article>
+        </div>
+        <div class="home-map-container reveal"><div class="map-copy"><p class="eyebrow red-ink">FIND YOUR WAY TO US</p><h3>Where our story feels <em>like home</em></h3><p>Kiran Bhavanam, Kannampally Bhagam, Kayamkulam</p><a id="directionsLink" href="https://www.google.com/maps/search/?api=1&amp;query=Kiran%20Bhavanam%20Kannampally%20Bhagam%20Kayamkulam%20Kerala%20India" target="_blank" rel="noopener noreferrer">Open directions in Google Maps ↗</a></div><iframe id="homeEmbed" title="Map search for Kiran Bhavanam in Kayamkulam" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Kiran%20Bhavanam%20Kannampally%20Bhagam%20Kayamkulam%20Kerala%20India&amp;output=embed"></iframe></div>
+        <p class="map-note">The map uses a place-name search. Please check the pin before sharing this invitation with guests.</p>
+      </section>
+
+      <section class="memory-section section-pad" id="gallery">
+        <div class="section-heading reveal"><p class="eyebrow">MOMENTS WE WILL TREASURE</p><h2>Our <em>memory garden</em></h2><p>Your photos are little pieces of our story. Add one to the garden.</p></div>
+        <div class="memory-grid" id="photoGallery" aria-live="polite">
+          <div class="memory-empty"><span>✿</span><strong>A garden waiting to bloom</strong><p>Guest photos will appear here after approval.</p></div>
+        </div>
+        <form class="photo-form reveal" id="photoForm">
+          <div class="upload-icon">✿</div><h3>Share a beautiful memory</h3><p>Upload a wedding moment, a smile, or a photograph worth keeping close.</p>
+          <div class="photo-fields"><label><span>Your name</span><input type="text" name="name" maxlength="48" placeholder="How should we credit you?" required autocomplete="name"></label><label><span>A little caption (optional)</span><input type="text" name="caption" maxlength="120" placeholder="The story behind this picture"></label></div>
+          <label class="file-drop" for="photoFile"><span class="file-drop-icon">⬆</span><strong id="fileLabel">Choose a photo from your gallery</strong><span>JPG, PNG or WebP • maximum 5 MB</span></label><input class="visually-hidden" type="file" id="photoFile" name="photo" accept="image/png,image/jpeg,image/webp" required>
+          <label class="consent"><input type="checkbox" name="photoConsent" required> I agree that this photo may be displayed publicly on this wedding website after review.</label>
+          <button class="btn btn-red" type="submit">Plant this memory <span>✿</span></button><p class="form-feedback" id="photoFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="wishes-section section-pad" id="wishes">
+        <div class="section-heading reveal"><p class="eyebrow red-ink">YOUR WORDS ARE OUR FAVORITE GIFT</p><h2>The <em>blessing wall</em></h2><p>A garden of lovely messages from the people we love.</p></div>
+        <div class="wishes-layout">
+          <form id="wishForm" class="wish-form reveal"><span class="letter-icon">♥</span><h3>Leave a little love note</h3><p>Write a blessing, a wish, or something that makes us smile.</p>
+            <label>Your name <input name="name" required maxlength="48" autocomplete="name" placeholder="With love, from..."></label>
+            <label>Words from your heart <textarea name="message" required maxlength="420" rows="5" placeholder="Dear Kirankumar & Nisha, may your journey together be filled with..."></textarea></label>
+            <label class="honeypot" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+            <label class="consent"><input type="checkbox" name="wishConsent" required> I understand that my name and wish may appear publicly on this website.</label>
+            <button type="submit" class="btn btn-red">Send our hearts a blessing <span>♡</span></button>
+            <p class="form-feedback" id="wishFeedback" role="status" aria-live="polite"></p>
+          </form>
+          <div class="wish-wall reveal"><div class="wall-heading"><strong>Love notes & blessings</strong><span class="live-indicator">● LIVE WALL</span></div><div id="wishList" class="wish-list" aria-live="polite"><div class="wishes-empty"><span>♥</span><h4>Be the first to send a blessing</h4><p>Your kind words will make our day brighter.</p></div></div><span class="moderation-hint">New messages appear here after a quick review. The wall refreshes automatically.</span></div>
+        </div>
+        <div class="whatsapp-box reveal"><div><span class="wa-flower">❀</span><h3>A wish is lovelier when shared</h3><p>Share your blessings through WhatsApp and invite others to celebrate.</p></div><a class="btn btn-whatsapp" id="whatsappWish" href="https://api.whatsapp.com/send?text=Wedding%20wishes%20to%20Kirankumar%20and%20Nisha%20Mohan" target="_blank" rel="noopener noreferrer">Share wishes on WhatsApp <span>↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-flowers" aria-hidden="true">🌹 <span>✿</span> 🌻 <span>✿</span> 🌹</div><div class="footer-heart">♥</div><p>With all our love,</p><div class="footer-names">Kirankumar <span>&</span> Nisha Mohan</div><p class="footer-date">11 FEBRUARY 2027</p><div class="footer-divider">✧ &nbsp; WISHES • JOY • FOREVER &nbsp; ✧</div><button id="replayInvitation" type="button" class="replay-btn">↶ Open our invitation again</button><div class="footer-credit">Made with <span>♥</span> and a little magic · <strong>Developed by Keerthi</strong></div></footer>
+    <nav class="mobile-nav" aria-label="Mobile quick navigation"><a href="#home"><span>⌂</span>Home</a><a href="#events"><span>✧</span>Events</a><a href="#gallery"><span>✿</span>Photos</a><a href="#wishes"><span>♥</span>Wishes</a></nav>
+  </div>
+</body>
+</html>
